@@ -1,5 +1,6 @@
 mod struct_exp;
 mod function;
+mod enumaration;
 
 fn main() {
     // // Integer 
@@ -76,4 +77,6 @@ fn main() {
     };
 
     println!("\nArea of the rectangle is {}", rect.area())
+
+    
 }
