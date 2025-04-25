@@ -69,4 +69,11 @@ fn main() {
         sign_in_count: 2
     };
     println!("User 1 username : {:?}", jagjeevan.username);
+
+    let rect = struct_exp::React{
+        width: 10,
+        height:20
+    };
+
+    println!("\nArea of the rectangle is {}", rect.area())
 }
